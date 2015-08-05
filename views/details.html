@@ -1,0 +1,17 @@
+<div ng-controller="AboutCtrl as vm">
+  <table class="table table-condensed table-stripped">
+    <tr>
+      <th>Date</th>
+      <th>Subject</th>
+      <th>From</th>
+      <th>Score</th>
+    </tr>
+    <tr ng-repeat="email in vm.emails">
+      <td am-time-ago="email.DateTimeReceived"></td>
+      <td>{{email.Subject}}</td>
+      <td>{{email.Sender.EmailAddress.Address}}</td>
+      <td>{{email.score}}</td>
+    </tr>
+  </table>
+  <button class="btn btn-primary" ng-show="vm.next" ng-click="vm.loadMore()">Load More Email</button>
+</div>
