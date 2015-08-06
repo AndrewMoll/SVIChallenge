@@ -1,5 +1,5 @@
 function onLoad(){
- window.fitText(document.getElementById("title"),1.8);
+ window.fitText(document.getElementById("title"),2.1);
 }
 
 function loadChallenge(c) {
