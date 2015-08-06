@@ -41,7 +41,7 @@ margin: 0;
 {
     position:relative;
     width:75%;
-    height:10%;
+    height:90%;
     margin: 0 auto;
     
 }
@@ -50,23 +50,12 @@ margin: 0;
 
 
 .button {
-   border-top: .1em solid #d0e751;
    background: #d0e751;
    background: -webkit-gradient(linear, left top, left bottom, from(#d0e751), to(#d0e751));
    background: -webkit-linear-gradient(top, #d0e751, #d0e751);
    background: -moz-linear-gradient(top, #d0e751, #d0e751);
    background: -ms-linear-gradient(top, #d0e751, #d0e751);
    background: -o-linear-gradient(top, #d0e751, #d0e751);
-   padding: 4em 2em;
-   -webkit-border-radius: 1em;
-   -moz-border-radius: 1em;
-   border-radius: 1em;
-   color: #000000;
-   font-size: 1.3em;
-   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
-   text-decoration: none;
-   vertical-align: middle;
-   margin: 1.2em;
    }
  .button:hover {
    border-top-color: #ffffff;
@@ -77,3 +66,10 @@ margin: 0;
    border-top-color: #d0e751;
    background: #d0e751;
    }
+
+
+button {
+    width:45%;    
+    height:23%;
+    margin: 1em;
+}
