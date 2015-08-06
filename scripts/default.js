@@ -1,7 +1,9 @@
 
 
 function loadChallenge(c) {
-     alert(c);              // The function returns the product of p1 and p2
+     alert(c);    
+      window.location.href='the_link_to_go_to.html';
+          // The function returns the product of p1 and p2
  }
 
 
