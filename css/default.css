@@ -20,10 +20,9 @@ margin: 0;
 {
 	position:relative;
 	height: 10%;
-  top:0;
 	width:100%;
 	text-align: center;
-  font:2em;
+    font-size:2em;
 }
 
 #challenges-container1
@@ -80,6 +79,5 @@ button {
   -moz-border-radius: 1em;  
  border-radius: 1em;  
     font-size:200%;
-    box-sizing: border-box;
 
 }
