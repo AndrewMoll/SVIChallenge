@@ -40,6 +40,7 @@ margin: 0;
 #button-container
 {
     position:relative;
+    top:5%;
     width:65%;
     height:90%;
     margin: 0 auto;
@@ -75,6 +76,6 @@ button {
   -webkit-border-radius: 1em;  
   -moz-border-radius: 1em;  
  border-radius: 1em;  
-    font-size:1.5em;
+    font-size:200%;
 
 }
