@@ -1,4 +1,6 @@
 
+ window.fitText(document.getElementById("title"),.8);
+
 
 function loadChallenge(c) {
      alert(c);    
