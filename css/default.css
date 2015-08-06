@@ -1,0 +1,54 @@
+
+#title
+{
+	font-size: 3em;
+}
+
+
+#canvus 
+{
+	position:fixed;
+	height: 100%;
+	width:100%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+#title
+{
+	position:relative;
+	height: 10%;
+	width:100%;
+	top:0;
+	text-align: center;
+}
+
+#challenges-container
+{
+	height:70%;
+	width:100%;
+	top:10%;
+	background-color: darkred;
+	
+}
+
+
+#footer
+{
+	position: relative;
+	height:10%;
+	width:100%;
+	bottom: 0;
+	background-color: dodgerblue;
+}
+
+
+.button {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: lightgray;   
+    margin: 15px;
+}
+
+
